@@ -22,4 +22,8 @@ for org_match in orgs
     end
 end
 
-num_less > 0 && error("$num_less organization(s) with fewer than 2 public members")
+if num_less > 0
+    error("$num_less organization(s) with fewer than 2 public members")
+else
+    println("None found")
+end
