@@ -6,7 +6,7 @@ using GitHub
 
 myauth = GitHub.authenticate(ENV["GITHUB_AUTH"])
 
-conts = String(read(joinpath(dirname(@__DIR__), "community", "organizations.md")))
+conts = String(read(joinpath(dirname(dirname(@__DIR__)), "community", "organizations.md")))
 orgs = eachmatch(r"(?<url>https?://github\.com/[^/\s]+(?=\)))", conts)
 
 println("Finding orgs with fewer than 2 public memers that are listed in https://julialang.org/community/organizations/")
