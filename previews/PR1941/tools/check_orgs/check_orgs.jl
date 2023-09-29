@@ -22,4 +22,4 @@ for org_match in orgs
     end
 end
 
-any_less && error("$num_less organizations have fewer than 2 public members")
+num_less > 0 && error("$num_less organization(s) with fewer than 2 public members")
