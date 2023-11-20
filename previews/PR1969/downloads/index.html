@@ -3,11 +3,11 @@
 <pre><code class=language-julia >curl -fsSL https://install.julialang.org | sh</code></pre>
 <p>Once installed <code>julia</code> will be available via the command line interface.</p>
 <p>To install different versions see <code>juliaup --help</code> or the documentation at <a href="https://github.com/JuliaLang/juliaup">github.com/JuliaLang/juliaup</a>.</p>
-<p>&lt;/br/&gt;</p>
-<h1 id=julia_version_history ><a href="#julia_version_history">Julia Version History</a></h1>
+<h2>&lt;/br/&gt;</h2>
+<h2 id=julia_version_history ><a href="#julia_version_history">Julia Version History</a></h2>
 <p>Note that all Julia versions are installable through Juliaup.</p>
 
-<h2 id=current_stable_release><a href="#current_stable_release">Current stable release: v1.9.4 (November 14, 2023)</a></h2>
+<h3 id=current_stable_release><a href="#current_stable_release">Current stable release: v1.9.4 (November 14, 2023)</a></h3>
 
 <p>Checksums for this release are available in both <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.9.4.md5">MD5</a> and <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.9.4.sha256">SHA256</a> formats.</p>
 <div class=row ><div class=col-12 ><table class="downloads table table-hover table-bordered">
@@ -78,7 +78,7 @@
 </table></div></div>
 <p>Almost everyone should be downloading and using the latest stable release of Julia. Great care is taken not to break compatibility with older Julia versions, so older code should continue to work with the latest stable Julia release. You should <em>only</em> be using the long-term support &#40;LTS&#41; version of Julia if you work at an organization where implementing or certifying upgrades is prohibitively expensive and there is no need for new language features or packages. See this description of <a href="https://julialang.org/blog/2019/08/release-process/#risk_tolerance_personas">&quot;Risk Personas&quot;</a> for more detail on who should be using what versions of Julia based on their risk tolerance. See this blog post on <a href="https://julialang.org/blog/2019/08/release-process/">Julia&#39;s Release Process</a> for more information on different kinds of releases.</p>
 
-<h2 id=long_term_support_release><a href="#long_term_support_release">Long-term support (LTS) release: v1.6.7 (July 19, 2022)</a></h2>
+<h3 id=long_term_support_release><a href="#long_term_support_release">Long-term support (LTS) release: v1.6.7 (July 19, 2022)</a></h3>
 
 <p>Checksums for this release are available in both, <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.6.7.md5">MD5</a> and <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.6.7.sha256">SHA256</a> formats.</p>
 <div class=row ><div class=col-12 ><table class="downloads table table-hover table-bordered">
@@ -145,7 +145,7 @@
 </table></div></div>
 
 
-<h2 id=upcoming_release><a href="#upcoming_release">Upcoming release: v1.10.0-rc1 (November 3, 2023)</a></h2>
+<h3 id=upcoming_release><a href="#upcoming_release">Upcoming release: v1.10.0-rc1 (November 3, 2023)</a></h3>
 
 <p>We&#39;re currently testing release candidates for Julia v1.10, an upcoming minor release in the 1.x series of releases. We encourage developers and interested users to try it out and report any issues they encounter. As a prerelease, it should not be considered production-ready; it&#39;s intended to give users a chance to try out 1.10 with their code before the full release.</p>
 <p>Checksums for this release are available in both, <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.10.0-rc1.md5">MD5</a> and <a href="https://julialang-s3.julialang.org/bin/checksums/julia-1.10.0-rc1.sha256">SHA256</a> formats.</p>
@@ -222,14 +222,14 @@
 <p><a id=musl-fn  class=anchor ></a> 
 <sup>[1]</sup>
  Most Linux users should use the glibc binaries unless you know that your system uses musl as its libc.</p>
-<h2 id=older_releases ><a href="#older_releases">Older Releases</a></h2>
+<h3 id=older_releases ><a href="#older_releases">Older Releases</a></h3>
 <p>Older releases of Julia for all platforms are available on the <a href="/previews/PR1969/downloads/oldreleases/">Older releases page</a>. Only the LTS and Stable releases are maintained.</p>
-<h2 id=nightly_builds ><a href="#nightly_builds">Nightly Builds</a></h2>
+<h3 id=nightly_builds ><a href="#nightly_builds">Nightly Builds</a></h3>
 <p>Builds of the current unstable development version of Julia are available on the <a href="/previews/PR1969/downloads/nightlies/">nightlies page</a>. While the name suggests that they are built every night, they are actually built after each commit to master. However, at times due to broken builds or CI infrastructure issues, nightlies may not be produced. These are intended as developer previews into the latest work and are not intended for normal use. Most users are advised to use the current stable release version of Julia.</p>
-<h2 id=download_verification ><a href="#download_verification">Download verification</a></h2>
+<h3 id=download_verification ><a href="#download_verification">Download verification</a></h3>
 <p>All Julia binary releases are cryptographically secured using the traditional methods on each platform. macOS and Windows releases are codesigned with certificates that are verified by the operating system during installation. Linux and source tarballs are signed with GPG using <a href="/previews/PR1969/assets/juliareleases.asc">this key</a>.</p>
 <hr />
-<h2 id=supported_platforms ><a href="#supported_platforms">Supported platforms</a></h2>
+<h3 id=supported_platforms ><a href="#supported_platforms">Supported platforms</a></h3>
 <p>Different OSes and architectures have varying <a href="/previews/PR1969/downloads/#support_tiers_for_the_latest_stable_release_of_julia">tiers of support</a>. Please see <a href="/previews/PR1969/downloads/platform/">platform specific instructions</a> for further installation instructions and if you have trouble installing Julia. If the official binaries do not work for you, please <a href="https://github.com/JuliaLang/julia/issues">file an issue in the Julia project</a>.</p>
 <div class=row ><div class=col-12 ><table class="downloads table table-hover ">
   
@@ -325,14 +325,14 @@
     
   
 </table></div></div>
-<h3 id=support_tiers_for_the_latest_stable_release_of_julia ><a href="#support_tiers_for_the_latest_stable_release_of_julia">Support tiers for the latest stable release of Julia</a></h3>
+<h4 id=support_tiers_for_the_latest_stable_release_of_julia ><a href="#support_tiers_for_the_latest_stable_release_of_julia">Support tiers for the latest stable release of Julia</a></h4>
 <div class=row ><div class=col-12 ><ul>
 <li> <font color=green >Tier 1</font>: Julia is guaranteed to build from source and pass all tests on these platforms when built with the default options. Official binaries are always available and CI is run on every commit to ensure support is actively maintained.
 <li> <font color=orange >Tier 2</font>: Julia is guaranteed to build from source using the default build options, but may or may not pass all tests. Official binaries are available on a case-by-case basis.
 <li> <font color=crimson >Tier 3</font>: Julia may or may not build. If it does, it is unlikely to pass tests. Binaries may be available in some cases. When they are, they should be considered experimental. Ongoing support is dependent on community efforts.
 <li> Tier 4: Julia built at some point in the past, but is known not to build currently.
 </ul></div></div>
-<h2 id=json_release_feed ><a href="#json_release_feed">JSON release feed</a></h2>
+<h3 id=json_release_feed ><a href="#json_release_feed">JSON release feed</a></h3>
 <p>The info above is also available as a <a href="https://julialang-s3.julialang.org/bin/versions.json">JSON file</a> &#40;<a href="https://julialang-s3.julialang.org/bin/versions-schema.json">schema</a>&#41;. It may take up to two hours after the release of a new version for it to be included in the JSON file.</p>
 <hr />
 <p><strong>Note:</strong> Julia comes with a built-in package manager which downloads and installs packages from the Internet. In doing so, it necessarily reveals your public <a href="https://en.wikipedia.org/wiki/IP_address">IP address</a> to any server you connect to, and service providers may log your IP address. In Julia versions 1.5 and higher, by default the package manager connects to <a href="https://pkg.julialang.org">https://pkg.julialang.org</a>, a free public service operated by the Julia project to serve open source package resources to Julia users. This service retains IP address logs for up to 31 days.</p>
