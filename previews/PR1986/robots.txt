@@ -1,0 +1,4 @@
+Sitemap: https://julialang.netlify.app/previews/PR1986/sitemap.xml
+
+User-agent: *
+Disallow:
